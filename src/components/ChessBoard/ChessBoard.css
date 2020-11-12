@@ -1,0 +1,39 @@
+.wrapperChessBoard {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.imageChessBoard {
+    margin: 0 auto;
+    display: block;
+}
+.formStrokeShape {
+    margin: 10px auto 0;
+    max-width: 270px;
+}
+.errorMessage {
+    display: block;
+    color: #cc0000;
+    text-align: center;
+    margin-top: 20px;
+}
+.moveHistoryBlock {
+    text-align: center;
+    margin-top: 30px;
+}
+.moveHistoryBlock li {
+    list-style-type: none;
+}
+.playerTurn {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.gameOverBlock {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
